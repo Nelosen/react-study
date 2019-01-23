@@ -1,0 +1,14 @@
+/node_modules/*
+/dist/
+/built/
+package-lock.json
+/cache-loader/
+.idea/*
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/new-admin-demo.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/dictionaries/xyl.xml
+.cache-loader/

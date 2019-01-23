@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "esnext",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es5",
+      "es2015",
+      "es2016"
+    ],
+    "sourceMap": true,
+    "strict": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "rootDir": "src",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "noStrictGenericChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "pretty": true,
+    "listEmittedFiles": true,
+    "skipLibCheck": true,
+    "paths": {
+      "component/*": [
+        "src/component/*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
